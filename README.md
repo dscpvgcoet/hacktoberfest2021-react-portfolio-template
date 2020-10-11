@@ -33,7 +33,7 @@ You can contribute by
 2. Open the terminal and clone your fork using
 
 ```
-git clone http://github.com/{your_username}/react-portfolio-template
+git clone http://github.com/{your_username}/hacktoberfest2020-react-portfolio-template
 ```
 
 3. - In the project directory run:
@@ -68,7 +68,7 @@ git commit -m '{Your commit message}'
 git push origin {branch_name}
 ```
 
-9. Go to http://github.com/{your_username}/react-portfolio-template , on the left there is a button to change your branch. Click on it and select {branch_name}.
+9. Go to http://github.com/{your_username}/hacktoberfest2020-react-portfolio-template , on the left there is a button to change your branch. Click on it and select {branch_name}.
 10. Now you will be able see a button named "Pull request". Click on it.
 11. Add appropriate message and click the "Create Pull Request" button.
 
