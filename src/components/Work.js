@@ -5,15 +5,13 @@ const Work = ({projects}) =>{
         <div className="work_container">
             <h1>Projects.</h1>
             <div className="projects_container">
-                {projects.map((project)=>(
-                <div key={project.id} className="project">
+                {projects.map(({id, url, imageSrc, title})=>(
+                <div key={id} className="project">
                     <div className="image">
-                        <a href={project.url}>
-                            <img src={project.imageSrc} alt={project.title}></img>
+                        <a className="img_container" href={url}>
+                            <img src={imageSrc} alt={title}></img>
+                            <p className="title">{title}</p>
                         </a>
-                    </div>
-                    <div className="title">
-                        {project.title}
                     </div>
                 </div>
                 ))}

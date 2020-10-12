@@ -105,14 +105,42 @@ a{
 .work_container .projects_container{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-gap: 1rem;
+  grid-row-gap: 2rem;
+  grid-column-gap: 2rem;
 }
 .work_container .projects_container img{
   height: 20rem;
   width: 20rem;
 }
+
+.work_container .projects_container .image {
+  position: relative;
+}
+
 .work_container .projects_container .title{
-  font-size: 1.2rem;
+  position: absolute;
+  font-family: 'Montserrat';
+  padding: 1.6rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.work_container .projects_container .img_container::before{
+  content: "";
+  position: absolute;
+  background: rgba(0,0,0,0);
+  transition: background 0.4s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.work_container .projects_container .img_container:hover::before{
+  background: rgba(0,0,0,0.6);
 }
 
 /* Contact */
