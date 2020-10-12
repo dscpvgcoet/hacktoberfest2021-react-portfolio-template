@@ -87,6 +87,11 @@ export default {
       name: "Dribbble",
       url: "https://codepen.com",
     },
+    {
+      name: "Instagram",
+      url: "https://instagram.com",
+    },
+  
   ],
 
   // About Page

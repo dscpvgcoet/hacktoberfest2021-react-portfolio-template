@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaGithub, FaCodepen, FaInstagram } from "react-icons/fa";
 
 const Contact = ({contactEmail, contactPara, socialLinks})=>{
 
@@ -31,6 +31,11 @@ const Contact = ({contactEmail, contactPara, socialLinks})=>{
             <li>
               <a href={socialLinks[2].url}>
                 <FaCodepen></FaCodepen>
+              </a>
+            </li>
+            <li>
+              <a href={socialLinks[3].url}>
+                <FaInstagram></FaInstagram>
               </a>
             </li>
           </ul>
