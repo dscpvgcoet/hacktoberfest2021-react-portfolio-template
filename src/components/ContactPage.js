@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./header";
 import data from "./yourdata";
+import { FaEnvelope, FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
 
 function ContactPage() {
   return (
@@ -14,6 +15,30 @@ function ContactPage() {
           <textarea name="textarea" placeholder="Message" rows="10"></textarea>
           <button>Submit</button>
         </form>
+        <div className="contact_container" style={{ top: "5rem" }}>
+          <ul>
+            <li>
+              <a href="#">
+                <FaEnvelope></FaEnvelope>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <FaLinkedin></FaLinkedin>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <FaGithub></FaGithub>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <FaCodepen></FaCodepen>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
