@@ -1,18 +1,22 @@
-import React from 'react';
-import './App.css';
-import {BrowserRouter, Switch, Route} from 'react-router-dom'
-import About from './components/About';
-import Landing from './components/Landing';
+import React from "react";
+import "./App.css";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import About from "./components/About";
+import ContactPage from "./components/ContactPage";
+import Landing from "./components/Landing";
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
         <Route path="/about">
-        <About></About>
+          <About></About>
+        </Route>
+        <Route path="/contact">
+          <ContactPage></ContactPage>
         </Route>
         <Route path="/" exact>
-        <Landing></Landing>
+          <Landing></Landing>
         </Route>
       </Switch>
     </BrowserRouter>
