@@ -1,12 +1,11 @@
 import React from "react";
-import Header from "./header";
-import data from "./yourdata";
+
 import { FaEnvelope, FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
 
 function ContactPage() {
   return (
     <div>
-      <Header name={data.name} contactEmail={data.contactEmail}></Header>
+      
       <div className="contact-page">
         <h1>Get in touch.</h1>
         <form>

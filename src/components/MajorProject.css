@@ -1,0 +1,13 @@
+.majorproject{
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.majorproject > img{
+    object-fit: contain;
+    width: 200px;
+}
