@@ -13,21 +13,21 @@ const Skills = (props) => {
       title: "Airbnb Clone",
       features: ["Can Send Details to host your hotel.","User authentication","Responsive","No Refresh Routing"],
       techs: ["Create-React-App","Redux","Firebase(authentication)","Router"],
-      linktoproject: "https://github.com/Kabi4/airBNB",
+      linktoproject: "#",
     },
     {
         source: ProjectTwo,
         title: "HuLu Clone",
         features: ["Can view all type of movies rating.","Switch Between pages without lossing State.","Responsive."],
         techs: ["The Movie DataBase(TMDB)","Create-React-App","Redux","Router"],
-        linktoproject: "https://github.com/Kabi4/HuluApp",
+        linktoproject: "#",
       },
       {
         source: ProjectThree,
         title: "Twitter Clone",
         features: ["Can View Others post.","Twitter authentication.","Can Post Your thoughts.","Can post multiple images."],
         techs: ["Create-React-App","Twiiter API","Fireabse(auth)","Router","Redux"],
-        linktoproject: "https://github.com/Kabi4/Twitter-Clone",
+        linktoproject: "#",
       }
   ]);
   if(1===2){
