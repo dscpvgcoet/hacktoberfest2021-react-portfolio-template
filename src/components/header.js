@@ -10,7 +10,7 @@ const Header = ({ name, contactEmail }) => {
         <nav>
           <ul>
             <li>
-              <a href="/skills">skills Showcase</a>
+              <a href="/skills">showcase</a>
             </li>
             <li>
               <Link to="/about">about</Link>
