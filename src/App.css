@@ -33,7 +33,7 @@ a {
   position: relative;
 }
 .header_container h1 {
-  font-size: 1rem;
+  font-size:4em;
 }
 .header_container ul {
   list-style: none;
@@ -46,6 +46,10 @@ a {
   text-decoration: none;
   color: white;
   font-size: 1rem;
+}
+
+.nav-link:hover{
+  color:#1E6FD9;
 }
 
 /* Home */

@@ -10,13 +10,13 @@ const Header = ({ name, contactEmail }) => {
         <nav>
           <ul>
             <li>
-              <a href="/skills">showcase</a>
+              <a className="nav-link" href="/skills">showcase</a>
             </li>
             <li>
-              <Link to="/about">about</Link>
+              <Link  className="nav-link" to="/about">about</Link>
             </li>
             <li>
-              <Link to="/contact">contact</Link>
+              <Link  className="nav-link" to="/contact">contact</Link>
             </li>
           </ul>
         </nav>

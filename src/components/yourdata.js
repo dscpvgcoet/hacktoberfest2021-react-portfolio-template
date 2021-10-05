@@ -84,8 +84,12 @@ export default {
       url: "https://www.github.com",
     },
     {
-      name: "Dribbble",
+      name: "CodePen",
       url: "https://codepen.com",
+    },
+    {
+      name: "Dribbble",
+      url: "https://dribbble.com/",
     },
   ],
 
