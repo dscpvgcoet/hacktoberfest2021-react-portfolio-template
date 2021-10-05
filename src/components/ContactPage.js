@@ -1,11 +1,10 @@
 import React from "react";
 
-import { FaEnvelope, FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaCodepen, FaDribbble } from "react-icons/fa";
 
 function ContactPage() {
   return (
     <div>
-      
       <div className="contact-page">
         <h1>Get in touch.</h1>
         <form>
@@ -14,30 +13,28 @@ function ContactPage() {
           <textarea name="textarea" placeholder="Message" rows="10"></textarea>
           <button>Submit</button>
         </form>
-        <div className="contact_container" style={{ top: "5rem" }}>
-          <ul>
-            <li>
-              <a href="#">
-                <FaEnvelope></FaEnvelope>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <FaLinkedin></FaLinkedin>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <FaGithub></FaGithub>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <FaCodepen></FaCodepen>
-              </a>
-            </li>
-          </ul>
-        </div>
+        <ul className="social_links" style={{display:'flex',listStyle:'none',alignItems:'center',justifyContent:'start'}}>
+          <li style={{fontSize:'3em',margin:'1rem'}}>
+            <a href="#">
+              <FaLinkedin></FaLinkedin>
+            </a>
+          </li>
+          <li style={{fontSize:'3em',margin:'1rem'}}>
+            <a href="#">
+              <FaGithub></FaGithub>
+            </a>
+          </li>
+          <li style={{fontSize:'3em',margin:'1rem'}}>
+            <a href="#">
+              <FaCodepen></FaCodepen>
+            </a>
+          </li>
+          <li style={{fontSize:'3em',margin:'1rem'}}>
+            <a href="#">
+              <FaDribbble></FaDribbble>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

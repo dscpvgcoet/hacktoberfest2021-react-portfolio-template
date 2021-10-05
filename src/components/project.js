@@ -1,7 +1,9 @@
 import React from 'react'
 import { Redirect, withRouter } from 'react-router-dom';
 import "./project.css";
+
 const Project = (props) => {
+    
     return (
         <div className="project">
             {(props.match.params.id!=='1'&&props.match.params.id!=="2"&&props.match.params.id!=="3") && <Redirect to="/"/>}
