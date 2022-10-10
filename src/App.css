@@ -33,7 +33,7 @@ a {
   position: relative;
 }
 .header_container h1 {
-  font-size:4em;
+  font-size: 4em;
 }
 .header_container ul {
   list-style: none;
@@ -48,8 +48,12 @@ a {
   font-size: 1rem;
 }
 
-.nav-link:hover{
-  color:#1E6FD9;
+.nav-link:hover {
+  color: #1e6fd9;
+}
+
+.active {
+  color: #1e6fd9 !important;
 }
 
 /* Home */
@@ -58,7 +62,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   position: relative;
-  top: 12rem;
+  top: 6rem;
 }
 
 .home_container .home_head_wrapper {
